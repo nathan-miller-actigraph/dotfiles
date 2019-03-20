@@ -8,6 +8,7 @@ DOTFILES="\
     vimrc \
     bash_aliases \
     gitconfig \
+    zshrc \
 "
 
 IFS=' '
