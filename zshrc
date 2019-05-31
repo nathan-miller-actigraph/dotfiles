@@ -36,7 +36,7 @@ CASE_SENSITIVE="true"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="false"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -62,7 +62,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git aws common-aliases docker zsh-autosuggestions screen)
+plugins=(git aws common-aliases docker screen zsh-autosuggestions zsh-nvm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -98,6 +98,10 @@ fi
 alias clag="clear && ag"
 alias cl="clear && "
 
+setopt no_share_history
+
 export TERM="xterm-256color"
+
+export PATH="/home/nathan/.bin:$PATH"
 
 cd ~
