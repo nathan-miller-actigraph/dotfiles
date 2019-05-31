@@ -4,3 +4,6 @@
 [submodule "vim/bundle/vim-colorschemes"]
 	path = vim/bundle/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "vim/bundle/vim-bitbake"]
+	path = vim/bundle/vim-bitbake
+	url = git@github.com:kergoth/vim-bitbake.git
