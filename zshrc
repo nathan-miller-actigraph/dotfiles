@@ -97,6 +97,8 @@ fi
 #
 alias clag="clear && ag"
 alias cl="clear && "
+alias ll='ls -lFh'
+alias lla='ls -alFh'
 
 setopt no_share_history
 
