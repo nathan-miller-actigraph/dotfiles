@@ -8,5 +8,5 @@
 	path = vim/bundle/vim-bitbake
 	url = git@github.com:kergoth/vim-bitbake.git
 [submodule "lxd-completion-zsh"]
-	path = lxd-completion-zsh
+	path = zsh-plugins/lxd-completion-zsh
 	url = https://github.com/endaaman/lxd-completion-zsh
